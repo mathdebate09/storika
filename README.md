@@ -1,6 +1,7 @@
 # Storika
 
 A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
+
 > [Live website](https://storika.vercel.app/)
 
 ## Previews
@@ -47,8 +48,10 @@ npm run dev
 - **Google fonts**
   - Logo Font: [Playwrite USA Modern](https://fonts.google.com/specimen/Playwrite+US+Modern?preview.text=storika.)
   - System Font: [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?preview.text=Hello%20Wolrd)
-- Products data from [FakeStore API](https://fakestoreapi.com/)
+- **Carousel images**: [Desktop](https://www.artstation.com/artwork/kQQgaA), [Laptop](https://www.aroged.com/2024/06/25/apple-does-not-allow-the-release-of-pc-emulators-on-ios/), [Typewriter](https://unsplash.com/photos/black-typewriter-on-brown-wooden-table-rLNtIsnrp6A), [Walkman](https://medium.com/coinmonks/download-mp3-from-youtube-playlist-efa44493b47a) & [Game Console](https://quizgecko.com/learn/nintendo-trivia-rhntqm)
+- Products data from [FakeStore API](https://fakestoreapi.com/).
 
 ## Code snippets
 
-- CSS Resets: [Josh W.0 Comeau's Reset](https://www.joshwcomeau.com/css/custom-css-reset/) && [Andy Bell's Reset](https://piccalil.li/blog/a-more-modern-css-reset/)
+- CSS Resets: [Josh W. Comeau's Reset](https://www.joshwcomeau.com/css/custom-css-reset/) && [Andy Bell's Reset](https://piccalil.li/blog/a-more-modern-css-reset/)
+- Carousel: A [material-tailwind ui](https://www.material-tailwind.com/docs/react/carousel) component.

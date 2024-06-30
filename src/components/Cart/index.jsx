@@ -2,10 +2,10 @@ import NavBar from "../NavBar"
 
 function Cart() {
   return (
-    <>
+    <div className="bg-system-bg">
       <NavBar />
-      cart
-    </>
+      <p>Cart</p>
+    </div>
   )
 }
 

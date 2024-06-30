@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .gradient-y-gdn-to-rby {
+    background: linear-gradient(360deg, hsla(350, 60%, 23%, 1) 27%, hsla(43, 74%, 66%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

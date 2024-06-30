@@ -7,7 +7,7 @@ function NavBar() {
     <>
       <Heading />
       <nav className="">
-        <ul className="peer flex h-12 items-center justify-center gap-x-10 bg-nav-bg text-lg font-semibold text-soft-white decoration-4 underline-offset-4">
+        <ul className="peer flex h-12 items-center justify-center gap-x-10 bg-nav-bg font-libre text-lg font-semibold text-soft-white decoration-4 underline-offset-4">
           <li>
             <NavLink to="/" className={({ isActive }) => (isActive ? "underline" : undefined)}>
               Home

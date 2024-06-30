@@ -1,8 +1,7 @@
 # Storika
 
 A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
-
-> [Live website](https://example.com)
+> [Live website](https://storika.vercel.app/)
 
 ## Previews
 
@@ -21,11 +20,11 @@ A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
 [![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-000?style=for-the-badge&logo=tailwindcss&logoColor=1572B6)](https://tailwindcss.com/docs/installation)
 [![Vite](https://img.shields.io/badge/-Vite-000?style=for-the-badge&logo=vite)](https://vitejs.dev/guide/)
 [![Vitest](https://img.shields.io/badge/-Vitest-000?style=for-the-badge&logo=vitest)](https://vitest.dev/guide/)
-[![Netlify](https://img.shields.io/badge/-Netlify-000?style=for-the-badge&logo=netlify)](https://docs.netlify.com/get-started/)
+[![Vercel](https://img.shields.io/badge/-Vercel-000?style=for-the-badge&logo=vercel)](https://vercel.com/docs/getting-started-with-vercel)
 
 ## Getting started
 
-- Make sure you have [Node v14](https://nodejs.org/en/download/package-manager) or higher and [Git](https://git-scm.com/downloads) downloaded
+- Make sure you have [Node 20.xx.x](https://nodejs.org/en/download/package-manager) or higher and [Git](https://git-scm.com/downloads) downloaded
 
 ```bash
 git clone git@github.com:mathdebate09/storika.git

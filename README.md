@@ -1,7 +1,8 @@
 # Storika
 
 A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
->[Live website](https://example.com)
+
+> [Live website](https://example.com)
 
 ## Previews
 
@@ -24,7 +25,7 @@ A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
 
 ## Getting started
 
-- Make sure  you have [Node v14](https://nodejs.org/en/download/package-manager) or higher and [Git](https://git-scm.com/downloads) downloaded
+- Make sure you have [Node v14](https://nodejs.org/en/download/package-manager) or higher and [Git](https://git-scm.com/downloads) downloaded
 
 ```bash
 git clone git@github.com:mathdebate09/storika.git

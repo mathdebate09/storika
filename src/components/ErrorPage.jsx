@@ -8,7 +8,7 @@ const ErrorPage = () => {
         You can go back to the home page by clicking here, though!
       </Link>
     </div>
-  );
-};
+  )
+}
 
-export default ErrorPage;
+export default ErrorPage

@@ -1,9 +1,12 @@
 import NavBar from "../NavBar"
 
 function Home() {
-    return (
-        <NavBar />
-    )
+  return (
+    <>
+      <NavBar />
+      home
+    </>
+  )
 }
 
 export default Home

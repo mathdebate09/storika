@@ -7,7 +7,7 @@ function NavBar() {
     <>
       <Heading />
       <nav className="">
-        <ul className="peer flex h-12 items-center justify-center gap-x-10 bg-nav-bg font-libre text-lg font-semibold text-soft-white decoration-4 underline-offset-4">
+        <ul className="peer flex h-12 items-center justify-center gap-x-5 bg-nav-bg font-libre text-lg font-semibold text-soft-white decoration-4 underline-offset-4 lg:gap-x-10">
           <li>
             <NavLink to="/" className={({ isActive }) => (isActive ? "underline" : undefined)}>
               Home
@@ -24,6 +24,11 @@ function NavBar() {
           <li>
             <NavLink to="/cart" className={({ isActive }) => (isActive ? "underline" : undefined)}>
               Cart
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/404" className={({ isActive }) => (isActive ? "underline" : undefined)}>
+              4&theta;4
             </NavLink>
           </li>
         </ul>

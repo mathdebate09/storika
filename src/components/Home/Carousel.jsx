@@ -1,4 +1,5 @@
 import { Carousel } from "@material-tailwind/react"
+import PropTypes from "prop-types"
 
 function CarouselDefault({ images }) {
   const arrImageItems = images.map((image, index) => {
@@ -38,6 +39,10 @@ function CarouselDefault({ images }) {
       </div>
     </div>
   )
+}
+
+CarouselDefault.propTypes = {
+  images: PropTypes.array,
 }
 
 export default CarouselDefault

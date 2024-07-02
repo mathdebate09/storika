@@ -1,4 +1,5 @@
 import NavBar from "../NavBar"
+import { useState, useEffect } from "react"
 
 function Products() {
   return (

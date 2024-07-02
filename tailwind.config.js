@@ -9,6 +9,7 @@ export default withMT({
       fontFamily: {
         libre: ["Libre Franklin", ...defaultTheme.fontFamily.sans],
         playwrite: ["Playwrite US Modern", ...defaultTheme.fontFamily.sans],
+        garamond: ["EB Garamond", ...defaultTheme.fontFamily.sans],
       },
     },
     colors: {

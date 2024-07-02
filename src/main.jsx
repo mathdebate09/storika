@@ -1,16 +1,13 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import React from "react"
 import ReactDOM from "react-dom/client"
 
 import "./styles/reset.css"
 import "./styles/index.css"
 
-import routes from "./utils/routes.jsx"
-
-const router = createBrowserRouter(routes)
+import PageRouter from "./utils/PageRouter"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <PageRouter />
   </React.StrictMode>,
 )

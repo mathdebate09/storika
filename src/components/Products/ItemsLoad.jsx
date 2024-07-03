@@ -1,5 +1,5 @@
 function ItemsLoad() {
-  return <p className="h-screen">Loaidng ...</p>
+  return <p className="h-screen">Loading ...</p>
 }
 
 export default ItemsLoad

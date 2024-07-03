@@ -1,0 +1,1 @@
+[storika | fashion you'll never need](https://github.com/mathdebate09/storika) is a dummy-frontend shopping website © 2024 by [Jay Singh](https://github.com/mathdebate09) is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)

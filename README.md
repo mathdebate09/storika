@@ -44,10 +44,12 @@ npm run dev
 - **Icon links**
   - [Cart](https://lucide.dev/icons/shopping-bag)
   - [Remove item](https://lucide.dev/icons/trash-2)
-  - [Visa](https://www.svgrepo.com/svg/328144/visa), [MasterCard](https://www.svgrepo.com/svg/508701/mastercard-full), [American Express](https://www.svgrepo.com/svg/266068/american-express) & [Paypal](https://www.svgrepo.com/svg/508716/paypal)
+  - [Visa](https://www.svgrepo.com/svg/328144/visa), [MasterCard](https://www.svgrepo.com/svg/508701/mastercard-full) & [Paypal](https://www.svgrepo.com/svg/508716/paypal)
+  - [Github](https://www.svgrepo.com/svg/512317/github-142)
 - **Google fonts**
   - Logo Font: [Playwrite USA Modern](https://fonts.google.com/specimen/Playwrite+US+Modern?preview.text=storika.)
   - System Font: [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?preview.text=Hello%20Wolrd)
+  - 404 Page heading: [EB Garamond](https://fonts.google.com/specimen/EB+Garamond)
 - **Carousel images**: [Desktop](https://www.artstation.com/artwork/kQQgaA), [Laptop](https://www.aroged.com/2024/06/25/apple-does-not-allow-the-release-of-pc-emulators-on-ios/), [Typewriter](https://unsplash.com/photos/black-typewriter-on-brown-wooden-table-rLNtIsnrp6A), [Walkman](https://medium.com/coinmonks/download-mp3-from-youtube-playlist-efa44493b47a) & [Game Console](https://quizgecko.com/learn/nintendo-trivia-rhntqm)
 - Homepage Painting: [Unsplash link](https://unsplash.com/photos/horse-and-carriage-inside-cave-painting-kVXGjqRe7IY)
 - Products data from [FakeStore API](https://fakestoreapi.com/).
@@ -55,5 +57,6 @@ npm run dev
 ## Code snippets
 
 - CSS Resets: [Josh W. Comeau's Reset](https://www.joshwcomeau.com/css/custom-css-reset/) && [Andy Bell's Reset](https://piccalil.li/blog/a-more-modern-css-reset/)
-- Carousel: A [material-tailwind ui](https://www.material-tailwind.com/docs/react/carousel) component.
+- Carousel: A [material-tailwind](https://www.material-tailwind.com/docs/react/carousel) component.
 - Footer: A [flowbite](https://flowbite.com/docs/components/footer/#social-media-icons) component.
+- Select dropdown: Another [flowbite](https://flowbite.com/docs/forms/select/#select-input-example) component.

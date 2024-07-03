@@ -88,7 +88,7 @@ function Products() {
             <select
               defaultValue="all"
               id="categories"
-              className="bg-soft-ruby w-40 cursor-pointer rounded-lg border border-gray-300 p-1.5 text-sm text-soft-black focus:border-ruby focus:ring-ruby"
+              className="w-40 cursor-pointer rounded-lg border border-gray-300 bg-soft-ruby p-1.5 text-sm text-soft-black focus:border-ruby focus:ring-ruby"
               onChange={(e) => setFilter(e.target.value)}
             >
               <option value="all">Default</option>
@@ -109,7 +109,7 @@ function Products() {
             <select
               defaultValue="popularity"
               id="sorters"
-              className="bg-soft-ruby w-40 cursor-pointer rounded-lg border border-gray-300 p-1.5 text-sm text-soft-black focus:border-ruby focus:ring-ruby"
+              className="w-40 cursor-pointer rounded-lg border border-gray-300 bg-soft-ruby p-1.5 text-sm text-soft-black focus:border-ruby focus:ring-ruby"
               onChange={(e) => setSort(e.target.value)}
             >
               <option value="popularity">Most Popular</option>

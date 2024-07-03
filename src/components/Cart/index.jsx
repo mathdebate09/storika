@@ -1,6 +1,9 @@
 import { useContext } from "react"
 
 import NavBar from "../NavBar"
+import Footer from "../Footer"
+import EmptyCart from "./EmptyCart"
+
 import ProductsContext from "../../utils/ProductsContext.js"
 
 function Cart() {
@@ -15,11 +18,14 @@ function Cart() {
   })
 
   return (
-    <div className="bg-system-bg">
-      <NavBar />
-      <p>Cart</p>
-      {displayCart}
-    </div>
+    <>
+      <div className="bg-system-bg">
+        <NavBar />
+        {cart.length === 0 && <EmptyCart />}
+        {!(cart.length === 0) && displayCart}
+      </div>
+      <Footer />
+    </>
   )
 }
 

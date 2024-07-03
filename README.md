@@ -10,8 +10,12 @@ A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
 
 ## Features
 
-- FEAT-1
-- FEAT-2
+- Beautiful light-themed interface. *coughs*
+- Unique and visually appealing 404 page && Empty Cart page (I really meant it when I said **UNIQUE** && I also made the [svg art](https://storika.vercel.app/cart) from the empty-cart page)
+- Products displayed and filtered using the Fakestore API
+- Properly routed pages with React Router
+- Responsive design for optimal viewing on all devices
+- Cart functionality allowing users to add, remove, and adjust quantities
 
 ## Tools/Languages
 
@@ -34,10 +38,12 @@ npm install
 npm run dev
 ```
 
-## Learning outcomes
+## Learning Outcomes
 
-- OC-1
-- OC-2
+- Gained experience on working with `React Router` and managing routed pages.
+- Learned how to share states between components using `Context API`.
+- Writing UI tests using `vitest` and prop-checking with `propTypes`.
+- Also, attempted to use custom code-formatting using `Prettier` and `ES Lint` (been avoiding them for too long).
 
 ## Asset credits
 
@@ -46,6 +52,7 @@ npm run dev
   - [Remove item](https://lucide.dev/icons/trash-2)
   - [Visa](https://www.svgrepo.com/svg/328144/visa), [MasterCard](https://www.svgrepo.com/svg/508701/mastercard-full) & [Paypal](https://www.svgrepo.com/svg/508716/paypal)
   - [Github](https://www.svgrepo.com/svg/512317/github-142)
+  - [EmptyCart Image](https://gtihub.com/amthdebta09) (yep I made that :D)
 - **Google fonts**
   - Logo Font: [Playwrite USA Modern](https://fonts.google.com/specimen/Playwrite+US+Modern?preview.text=storika.)
   - System Font: [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?preview.text=Hello%20Wolrd)
@@ -60,3 +67,5 @@ npm run dev
 - Carousel: A [material-tailwind](https://www.material-tailwind.com/docs/react/carousel) component.
 - Footer: A [flowbite](https://flowbite.com/docs/components/footer/#social-media-icons) component.
 - Select dropdown: Another [flowbite](https://flowbite.com/docs/forms/select/#select-input-example) component.
+- Loading Skeleton: Yohohoho again, [flowbite](https://flowbite.com/docs/components/skeleton/#image-placeholder).
+- Meta tag in HTML: A [dev.to article](https://dev.to/mathdebate09/add-thumbnails-to-your-project-links-for-better-seo-5gca) by me

@@ -16,7 +16,7 @@ function CartCard({ id, price, title, image, count }) {
 
   return (
     <>
-      <div className="shadow-soft-ruby grid w-full grid-cols-3 flex-col items-center justify-center p-2 text-center font-libre lg:w-[30rem]">
+      <div className="grid w-full grid-cols-3 flex-col items-center justify-center p-2 text-center font-libre shadow-soft-ruby lg:w-[30rem]">
         <img className="mb-2 h-20 justify-self-center" src={image} alt={title}></img>
         <div className="w-36 lg:w-64">
           <h3 className="text-xs font-semibold lg:text-base">{title}</h3>

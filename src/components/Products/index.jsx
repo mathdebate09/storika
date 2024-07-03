@@ -79,19 +79,16 @@ function Products() {
   return (
     <div className="bg-system-bg">
       <NavBar />
-      <div>
+      <div className="align-center my-4 ml-4 flex flex-col justify-end gap-y-2 lg:mr-16 lg:flex-row lg:gap-x-6">
         <div>
-          <form className="mx-auto max-w-sm">
-            <label
-              htmlFor="categories"
-              className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
-            >
+          <form className="flex items-center gap-x-2">
+            <label htmlFor="categories" className="text-sm font-medium text-soft-black">
               Filter:
             </label>
             <select
               defaultValue="all"
               id="categories"
-              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              className="bg-soft-ruby w-40 cursor-pointer rounded-lg border border-gray-300 p-1.5 text-sm text-soft-black focus:border-ruby focus:ring-ruby"
               onChange={(e) => setFilter(e.target.value)}
             >
               <option value="all">Default</option>
@@ -103,18 +100,16 @@ function Products() {
             </select>
           </form>
         </div>
+
         <div>
-          <form className="mx-auto max-w-sm">
-            <label
-              htmlFor="sorters"
-              className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
-            >
+          <form className="flex items-center gap-x-2">
+            <label htmlFor="sorters" className="text-sm font-medium text-soft-black">
               Sort by:
             </label>
             <select
               defaultValue="popularity"
               id="sorters"
-              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              className="bg-soft-ruby w-40 cursor-pointer rounded-lg border border-gray-300 p-1.5 text-sm text-soft-black focus:border-ruby focus:ring-ruby"
               onChange={(e) => setSort(e.target.value)}
             >
               <option value="popularity">Most Popular</option>
@@ -127,7 +122,9 @@ function Products() {
         </div>
       </div>
       {loading && <ItemsLoad />}
-      <div className="grid-col-2 grid gap-16 lg:grid-cols-5">{arrProducts}</div>
+      <div className="item-center mx-4 mb-8 grid grid-cols-2 justify-center gap-4 lg:mx-16 lg:grid-cols-4 lg:gap-8">
+        {arrProducts}
+      </div>
       <Footer />
     </div>
   )

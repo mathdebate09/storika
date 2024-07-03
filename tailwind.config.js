@@ -16,6 +16,7 @@ export default withMT({
       golden: "hsla(43, 74%, 66%, 1)",
       "soft-black": "hsla(0, 0%, 20%, 1)",
       ruby: "hsla(350, 100%, 23%, 1)",
+      "soft-ruby": "hsla(29, 44%, 80%, 1)",
       "header-bg": "hsla(43, 74%, 90%, 1)",
       "system-bg": "hsla(43, 74%, 98%, 1)",
       "nav-bg": "hsla(350, 100%, 20%, 1)",

@@ -6,7 +6,29 @@ A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
 
 ## Previews
 
-[img](https://example.com)
+### Home
+
+![storika-home](https://github.com/mathdebate09/storika/assets/140599484/3b32c853-d2af-44c6-8f29-af15b6b1160b)
+
+### Products (Loading skeleton
+
+![storika-loading](https://github.com/mathdebate09/storika/assets/140599484/9097b86e-2dd7-4708-bba9-e2b969af8e39)
+
+### Product (FakeStore API )
+
+![storika-products](https://github.com/mathdebate09/storika/assets/140599484/865aa4cc-67d2-4970-a4e5-3dc4a4010210)
+
+### Cart (Empty page - I made that cute art :D)
+
+![empty-cart](https://github.com/mathdebate09/storika/assets/140599484/6e7ef753-53b0-428f-8b4e-bcdcd2e353c3)
+
+### Cart (Dummy checkout)
+
+![storika-cart](https://github.com/mathdebate09/storika/assets/140599484/82c63c23-136f-444d-852a-7aea1b19e312)
+
+### 404 Page (a little hobby I have)
+
+![storika-404-footer](https://github.com/mathdebate09/storika/assets/140599484/a8a44203-df0d-47c1-bfaa-3146b952f982)
 
 ## Features
 

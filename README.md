@@ -10,13 +10,21 @@ A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
 
 ![storika-home](https://github.com/mathdebate09/storika/assets/140599484/3b32c853-d2af-44c6-8f29-af15b6b1160b)
 
-### Products (Loading skeleton
+### Products (Loading skeleton)
 
 ![storika-loading](https://github.com/mathdebate09/storika/assets/140599484/9097b86e-2dd7-4708-bba9-e2b969af8e39)
 
-### Product (FakeStore API )
+### Product (FakeStore API)
 
 ![storika-products](https://github.com/mathdebate09/storika/assets/140599484/865aa4cc-67d2-4970-a4e5-3dc4a4010210)
+
+## Individual Product Route (Loading skeleton)
+
+![storika-product-load](https://github.com/mathdebate09/storika/assets/140599484/203fc081-16e7-43a4-aeb9-a9f3bebe64df)
+
+## Individual Product Route
+
+![storika-product-route](https://github.com/mathdebate09/storika/assets/140599484/46c5b8f1-5144-475a-9ff6-a549107dba98)
 
 ### Cart (Empty page - I made that cute art :D)
 
@@ -24,7 +32,7 @@ A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
 
 ### Cart (Dummy checkout)
 
-![storika-cart](https://github.com/mathdebate09/storika/assets/140599484/82c63c23-136f-444d-852a-7aea1b19e312)
+![storika-checkout](https://github.com/mathdebate09/storika/assets/140599484/0f32731b-a725-47f8-bf0e-c299075ed4ab)
 
 ### 404 Page (a little hobby I have)
 

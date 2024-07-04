@@ -6,6 +6,7 @@ import EmptyCart from "./EmptyCart"
 import CartCard from "./CartCard"
 
 import ProductsContext from "../../utils/ProductsContext.js"
+import { totalCart } from "../../utils/helpers.js"
 
 function Cart() {
   const { cart, setCart } = useContext(ProductsContext)
@@ -41,7 +42,7 @@ function Cart() {
               onClick={() => setCart([])}
             >
               <p className="absolute inset-0 flex items-center justify-center group-hover:invisible">
-                Dummy Checkout
+                Dummy Checkout ~ {totalCart(cart).toFixed(2)} &pound;
               </p>
               <p className="invisible absolute inset-0 flex items-center justify-center group-hover:visible">
                 Doing this will reset Cart!

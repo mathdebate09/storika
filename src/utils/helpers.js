@@ -20,3 +20,9 @@ export function sortData(arr, param) {
 
   return copiedArray
 }
+
+export function totalCart(arr) {
+  const copiedArr = [...arr]
+  const total = copiedArr.reduce((acc, item) => acc + item.price * item.count, 0)
+  return total
+}

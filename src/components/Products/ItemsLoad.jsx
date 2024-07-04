@@ -26,7 +26,7 @@ function ItemsLoad() {
   let cardArr = []
 
   for (let i = 0; i < 8; i++) {
-    cardArr.push(<LoadingCard />)
+    cardArr.push(<LoadingCard key={i} />)
   }
 
   return (

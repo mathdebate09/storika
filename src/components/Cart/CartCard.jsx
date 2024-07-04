@@ -1,4 +1,5 @@
 import { useContext } from "react"
+import { Link } from "react-router-dom"
 import PropTypes from "prop-types"
 
 import ProductsContext from "../../utils/ProductsContext.js"
@@ -17,9 +18,13 @@ function CartCard({ id, price, title, image, count }) {
   return (
     <>
       <div className="grid w-full grid-cols-3 flex-col items-center justify-center p-2 text-center font-libre shadow-soft-ruby lg:w-[30rem]">
-        <img className="mb-2 h-20 justify-self-center" src={image} alt={title}></img>
+        <Link to={`/products/${id}`} className="flex justify-center">
+          <img className="mb-2 h-20 justify-self-center" src={image} alt={title}></img>
+        </Link>
         <div className="w-36 lg:w-64">
-          <h3 className="text-xs font-semibold lg:text-base">{title}</h3>
+          <Link to={`/products/${id}`}>
+            <h3 className="text-xs font-semibold lg:text-base">{title}</h3>
+          </Link>
           <div className="mt-2 flex flex-col items-center justify-center lg:flex-row lg:gap-x-2">
             <p className="text-xs lg:mb-0 lg:text-base">
               {count === 0 ? price.toFixed(2) : (price * count).toFixed(2)} &pound;

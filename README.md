@@ -32,7 +32,7 @@ A dummy frontend shopping-cart website using - with ReactJS/TailwindCSS
 
 ## Features
 
-- Beautiful light-themed interface. *coughs*
+- Beautiful light-themed interface. _coughs_
 - Unique and visually appealing 404 page && Empty Cart page (I really meant it when I said **UNIQUE** && I also made the [svg art](https://storika.vercel.app/cart) from the empty-cart page)
 - Products displayed and filtered using the Fakestore API
 - Properly routed pages with React Router

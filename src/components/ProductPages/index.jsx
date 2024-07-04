@@ -14,6 +14,7 @@ function ProductPages() {
 
   const { cart } = useContext(ProductsContext)
   const [currentProduct, setCurrentProduct] = useState({})
+  const [currentCount, setCurrentCount] = useState(0)
   const [products, setProducts] = useState({})
   const [loading, setLoading] = useState(true)
 
@@ -35,13 +36,24 @@ function ProductPages() {
         updatedProduct = { ...product, count: 0, isCarted: false }
       }
 
-      console.log(updatedProduct)
+      setCurrentCount(updatedProduct.count)
 
       setCurrentProduct(updatedProduct)
       setLoading(false)
     }
 
     fetchAndProcessProduct()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentId])
+
+  useEffect(() => {
+    function updateCount() {
+      const getCurrentProduct = cart.find((item) => item.id === currentId)
+      if (getCurrentProduct) {
+        setCurrentCount(getCurrentProduct.count)
+      }
+    }
+    updateCount()
   }, [cart, currentId])
 
   return (
@@ -99,12 +111,12 @@ function ProductPages() {
               <hr className="my-3 h-1 border-0 bg-soft-ruby"></hr>
               <div className="mb-2 flex gap-x-3">
                 <p className="mb-1 lg:mb-0 lg:text-base">
-                  {currentProduct.count === 0
+                  {currentCount === 0
                     ? currentProduct.price.toFixed(2)
-                    : (currentProduct.price * currentProduct.count).toFixed(2)}{" "}
+                    : (currentProduct.price * currentCount).toFixed(2)}{" "}
                   &pound;
                 </p>
-                <EditCart id={currentProduct.id} count={currentProduct.count} products={products} />
+                <EditCart id={currentProduct.id} count={currentCount} products={products} />
               </div>
             </div>
           </div>

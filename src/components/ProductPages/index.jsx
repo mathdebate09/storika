@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react"
 import { useParams, Link } from "react-router-dom"
 
 import ProductsContext from "../../utils/ProductsContext.js"
+import { isNumber } from "../../utils/helpers.js"
 
 import NavBar from "../NavBar"
 import Footer from "../Footer"
@@ -10,7 +11,13 @@ import ProductPageLoad from "./ProductPageLoad"
 
 function ProductPages() {
   const { id } = useParams()
-  const currentId = parseInt(id)
+
+  let numericId = id.slice(-1)
+  if (isNumber(id.slice(-3, -1))) {
+    numericId = id.slice(-2)
+  }
+
+  const currentId = parseInt(numericId, 10)
 
   const { cart } = useContext(ProductsContext)
   const [currentProduct, setCurrentProduct] = useState({})

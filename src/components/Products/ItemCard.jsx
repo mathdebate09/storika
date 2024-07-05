@@ -7,10 +7,13 @@ function ItemCard({ id, title, price, image, count, products, setProducts }) {
   return (
     <>
       <div className="flex h-72 w-full flex-col items-center justify-center rounded-md border-2 border-ruby bg-white p-2 text-center font-libre shadow-md shadow-soft-ruby">
-        <Link to={id.toString()} className="flex w-full justify-center">
+        <Link
+          to={`${title.toLowerCase().replace(/\s+/g, "-")}-${id}`}
+          className="flex w-full justify-center"
+        >
           <img className="mb-2 h-20" src={image} alt={title}></img>
         </Link>
-        <Link to={id.toString()} className="w-full">
+        <Link to={`${title.toLowerCase().replace(/\s+/g, "-")}-${id}`} className="w-full">
           <h3 className="text-xs font-semibold lg:text-base">{title}</h3>
         </Link>
         <hr className="my-2 h-1 w-full rounded-full border-0 bg-soft-ruby"></hr>

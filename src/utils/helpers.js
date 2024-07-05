@@ -26,3 +26,7 @@ export function totalCart(arr) {
   const total = copiedArr.reduce((acc, item) => acc + item.price * item.count, 0)
   return total
 }
+
+export function isNumber(value) {
+  return !isNaN(parseFloat(value)) && isFinite(value)
+}
